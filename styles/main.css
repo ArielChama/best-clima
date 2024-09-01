@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -11,15 +11,18 @@ body {
   font-style: normal;
 }
 
-.image_banner {
-  width: 693px;
-  height: 498px;
-}
-
 .card {
   width: 350px;
   background-color: white;
   box-shadow: 5px 5px 30px rgba(56, 56, 56, 0.164);
   border-radius: 20px;
   padding: 30px;
+}
+
+@media (max-width: 1300px) {
+  .image_banner {
+    width: 500px;
+    height: 390px;
+    margin-left: 40px;
+  }
 }
